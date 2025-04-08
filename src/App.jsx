@@ -41,7 +41,7 @@ function App() {
     />
         <Router>
           <Routes>
-              <Route path="/" element={<BicointList/>} />
+              <Route path="/cms/bitcoin_list" element={<BicointList/>} />
           </Routes>
         </Router>
       </QueryClientProvider>

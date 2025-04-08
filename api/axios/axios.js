@@ -1,7 +1,7 @@
 
 import axios from "axios";
 import { Cookies } from "react-cookie";
-let adminUrl = "https://api.coincap.io/v2/";
+let adminUrl = "https://rest.coincap.io/v3/assets";
 
 export const baseURL = adminUrl;
 let axiosInstance = axios.create({
